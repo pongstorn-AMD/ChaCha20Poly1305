@@ -127,7 +127,7 @@ COMPONENT Poly_1305_pipe_top is
 		tlast         : in  STD_LOGIC;
 		tvalid_out    : out  STD_LOGIC;
 		tlast_out     : out  STD_LOGIC;
-		data_out      : out unsigned(127 downto 0)
+		data_out      : out unsigned(127 downto 0) -- 16-byte tag
 		);
 end COMPONENT;
 
